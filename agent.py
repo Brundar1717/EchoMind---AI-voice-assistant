@@ -7,7 +7,7 @@ from livekit.agents import AgentSession, Agent, RoomInputOptions
 from livekit.plugins import noise_cancellation, openai
 
 from prompts import AGENT_INSTRUCTION, SESSION_INSTRUCTION
-from tools import get_weather, search_web, send_email
+from tools import get_weather, search_web
 
 load_dotenv()
 
@@ -29,7 +29,7 @@ from livekit.plugins import (
 )
 
 from prompts import AGENT_INSTRUCTION, SESSION_INSTRUCTION
-from tools import get_weather, search_web, send_email
+from tools import get_weather, search_web
 
 load_dotenv()
 
@@ -43,7 +43,7 @@ class Assistant(Agent):
         # ❗ Now we only set instructions + tools here, NOT llm
         super().__init__(
             instructions=AGENT_INSTRUCTION,
-            tools=[get_weather, search_web, send_email],
+            tools=[get_weather, search_web],
         )
 
 
