@@ -9,9 +9,7 @@ EchoMind: A real-time AI voice assistant with task automation using speech, Open
 - 🧠 AI-powered conversation using OpenAI
 - 🌐 Web search support
 - 🌦️ Weather information retrieval
-- 📧 Send emails via Gmail
 - 🔇 Noise cancellation for better audio quality
-- 🤖 Custom personality (sarcastic butler style assistant)
 
 ---
 
